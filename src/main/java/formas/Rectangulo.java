@@ -26,7 +26,8 @@ public class Rectangulo {
         this.altura = altura;
     }
 
-    public double calculaArea(){
-        return (double) this.base*this.altura;
+    public void calculaArea(){
+        System.out.println("El area de este Rectangulo es de: " + (double) this.base*this.altura + "cm");
+
     }
 }

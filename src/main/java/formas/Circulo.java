@@ -1,5 +1,7 @@
 package formas;
 
+import java.math.BigDecimal;
+
 public class Circulo {
     //ATRIBUTOS
     private double radio;
@@ -14,9 +16,8 @@ public class Circulo {
 
     //METODOS
     public void calcularArea(){
-        double area = radio * 3.14;
-
-        System.out.println("El area de este Circulo es de: " + area + "cm");
+        BigDecimal area = new BigDecimal(radio).multiply(BigDecimal.valueOf(Math.PI));
+        System.out.println("El area de este Circulo es de: " + area.setScale(2) + "cm");
     }
 
     @Override

@@ -15,8 +15,9 @@ public class Cuadrado {
         this.lado = lado;
     }
 
-    public int calculaArea()
+    public void calculaArea()
     {
-        return this.lado*this.lado;
+        System.out.println("El area de este Cuadrado es de: " +this.lado*this.lado + "cm");
+
     }
 }
