@@ -1,4 +1,4 @@
 package formas;
 
-public class Exagono {
+public class Hexagono {
 }
