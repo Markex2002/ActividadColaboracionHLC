@@ -1,6 +1,7 @@
 package formas;
 
 public class Hexagono {
+    //MMB 16/11/23
     //ATRIBUTOS
     private double perimetro;
     private double apotema;
