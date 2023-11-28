@@ -1,5 +1,4 @@
-import formas.Circulo;
-import formas.Cuadrado;
+import formas.*;
 
 import java.util.Scanner;
 
@@ -30,12 +29,18 @@ public class Main {
             //FIN CODIFICACION MMB 23/11/2023
                 case 4:
                     System.out.println("Pentagono");
+                    Pentagono pentagono = new Pentagono(16, 20);
+                    pentagono.calcularArea();
                     break;
                 case 5:
                     System.out.println("Rectangulo");
+                    Rectangulo rectangulo = new Rectangulo(10, 5);
+                    rectangulo.calculaArea();
                     break;
                 case 6:
                     System.out.println("Triangulo");
+                    Triangulo triangulo = new Triangulo(5, 12);
+                    triangulo.calcularArea();
                     break;
                 case 0:
                     System.out.println("Hasta la proxima");
