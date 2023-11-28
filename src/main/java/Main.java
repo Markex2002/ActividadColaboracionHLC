@@ -1,5 +1,6 @@
 import formas.Circulo;
 import formas.Cuadrado;
+import formas.Hexagono;
 
 import java.util.Scanner;
 
@@ -26,6 +27,8 @@ public class Main {
                     break;
                 case 3:
                     System.out.println("Hexagono");
+                    Hexagono hexagono = new Hexagono(6,2);
+                    hexagono.calcularArea();
                     break;
             //FIN CODIFICACION MMB 23/11/2023
                 case 4:
