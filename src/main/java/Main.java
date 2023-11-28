@@ -1,6 +1,4 @@
-import formas.Circulo;
-import formas.Cuadrado;
-import formas.Hexagono;
+import formas.*;
 
 import java.util.Scanner;
 
